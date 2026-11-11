@@ -1,0 +1,178 @@
+{
+ "source": "CISA Known Exploited Vulnerabilities catalog",
+ "catalogVersion": "2026.11.10",
+ "dateReleased": "2026-11-10T19:03:29.8375Z",
+ "totalEntries": 1779,
+ "services": [
+  {
+   "port": 21,
+   "proto": "TCP",
+   "service": "FTP",
+   "kev": 3,
+   "ransomware": 0,
+   "examples": [
+    "CVE-2015-3306",
+    "CVE-2025-47813",
+    "CVE-2025-47812"
+   ]
+  },
+  {
+   "port": 22,
+   "proto": "TCP",
+   "service": "SSH",
+   "kev": 2,
+   "ransomware": 0,
+   "examples": [
+    "CVE-2026-123158",
+    "CVE-2025-32433"
+   ]
+  },
+  {
+   "port": 23,
+   "proto": "TCP",
+   "service": "Telnet",
+   "kev": 0,
+   "ransomware": 0,
+   "examples": []
+  },
+  {
+   "port": 445,
+   "proto": "TCP",
+   "service": "SMB",
+   "kev": 10,
+   "ransomware": 8,
+   "examples": [
+    "CVE-2017-0145",
+    "CVE-2017-0144",
+    "CVE-2017-0143"
+   ]
+  },
+  {
+   "port": 1433,
+   "proto": "TCP",
+   "service": "MS SQL Server",
+   "kev": 2,
+   "ransomware": 1,
+   "examples": [
+    "CVE-2019-1068",
+    "CVE-2020-0618"
+   ]
+  },
+  {
+   "port": 2375,
+   "proto": "TCP",
+   "service": "Docker API",
+   "kev": 1,
+   "ransomware": 0,
+   "examples": [
+    "CVE-2019-15752"
+   ]
+  },
+  {
+   "port": 3000,
+   "proto": "TCP",
+   "service": "Grafana / dev server",
+   "kev": 2,
+   "ransomware": 0,
+   "examples": [
+    "CVE-2021-43798",
+    "CVE-2021-39226"
+   ]
+  },
+  {
+   "port": 3306,
+   "proto": "TCP",
+   "service": "MySQL",
+   "kev": 0,
+   "ransomware": 0,
+   "examples": []
+  },
+  {
+   "port": 3389,
+   "proto": "TCP",
+   "service": "RDP",
+   "kev": 1,
+   "ransomware": 1,
+   "examples": [
+    "CVE-2019-0708"
+   ]
+  },
+  {
+   "port": 5432,
+   "proto": "TCP",
+   "service": "PostgreSQL",
+   "kev": 0,
+   "ransomware": 0,
+   "examples": []
+  },
+  {
+   "port": 5900,
+   "proto": "TCP",
+   "service": "VNC",
+   "kev": 0,
+   "ransomware": 0,
+   "examples": []
+  },
+  {
+   "port": 6379,
+   "proto": "TCP",
+   "service": "Redis",
+   "kev": 1,
+   "ransomware": 0,
+   "examples": [
+    "CVE-2022-0543"
+   ]
+  },
+  {
+   "port": 6443,
+   "proto": "TCP",
+   "service": "Kubernetes API",
+   "kev": 0,
+   "ransomware": 0,
+   "examples": []
+  },
+  {
+   "port": 8080,
+   "proto": "TCP",
+   "service": "Jenkins / admin HTTP",
+   "kev": 12,
+   "ransomware": 2,
+   "examples": [
+    "CVE-2017-12615",
+    "CVE-2020-1938",
+    "CVE-2018-1000861"
+   ]
+  },
+  {
+   "port": 9200,
+   "proto": "TCP",
+   "service": "Elasticsearch",
+   "kev": 3,
+   "ransomware": 0,
+   "examples": [
+    "CVE-2015-1427",
+    "CVE-2014-3120",
+    "CVE-2019-7609"
+   ]
+  },
+  {
+   "port": 11211,
+   "proto": "TCP",
+   "service": "Memcached",
+   "kev": 0,
+   "ransomware": 0,
+   "examples": []
+  },
+  {
+   "port": 27017,
+   "proto": "TCP",
+   "service": "MongoDB",
+   "kev": 2,
+   "ransomware": 0,
+   "examples": [
+    "CVE-2025-14847",
+    "CVE-2019-10758"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+  "changes": 188,
+  "autoApplied": 90,
+  "held": 83,
+  "deadRulesCaught": 15,
+  "saferAlternativeVerified": 70,
+  "needsPerson": 13,
+  "immediate": {
+    "sensitiveExposures": 9,
+    "toInternet": 6,
+    "toAllDoxxUsers": 3,
+    "services": [
+      "SSH",
+      "Grafana / dev server",
+      "Redis",
+      "Jenkins / admin HTTP",
+      "PostgreSQL",
+      "RDP"
+    ]
+  },
+  "checked": {
+    "sensitiveExposures": 0
+  },
+  "initialRuleHealth": [
+    {
+      "index": 3,
+      "kind": "dead"
+    },
+    {
+      "index": 5,
+      "kind": "redundant"
+    }
+  ]
+}

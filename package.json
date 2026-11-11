@@ -1,0 +1,12 @@
+{
+  "name": "doxx-exposure-check",
+  "private": true,
+  "type": "module",
+  "description": "Concept demo: exact exposure diffs and guardrails for AI-agent firewall changes on doxx.net.",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "report": "node scripts/report.mjs",
+    "kev": "node scripts/kev_ports.mjs /tmp/kev.json",
+    "test": "node --test test/*.test.mjs"
+  }
+}
